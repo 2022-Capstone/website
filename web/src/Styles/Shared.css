@@ -1,0 +1,87 @@
+/*
+*   SHARED CSS BETWEEN THE ENTIRE SOLUTION
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+@font-face {
+    font-family: 'Poppins-Medium'; src: url("../Resources/Fonts/Poppins-Medium.ttf");
+    font-family: 'Poppins-SemiBold'; src: url("../Resources/Fonts/Poppins-SemiBold.ttf");
+    font-family: 'Poppins-Regular'; src: url("../Resources/Fonts/Poppins-Regular.ttf");
+    font-family: 'Tommy'; src: url("../Resources/Fonts/Tommy.otf");
+  }
+
+.tommy {
+    font-family: 'Tommy';
+    font-size: 120px;
+}
+
+.sml {
+  font-size: 50px;
+  float: left;
+}
+
+.pop-semibold {
+  font-family: 'Poppins-SemiBold';
+}
+
+.pop-regular {
+  font-family: 'Poppins-Regular';
+}
+
+.link-noline {
+    text-decoration: none;
+}
+
+.mainHeader {
+    font-size: 120px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 10%;
+    color: white;
+}
+
+.more_width {
+  font-size: 120px;
+  float: left;
+  padding-left: 50px;
+  padding-top: 100px;
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+.description {
+  float: left;
+  font-size: 15px;
+  padding-top: 10px;
+  color: lightgray;
+}
+
+.stuff {
+  margin-top: 20%;
+}
+
+.feature_list {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.feature {
+  width: 300px;
+  height: 200px;
+  background-color: #3B3939;
+  border-radius: 5px;
+}
+
+.feature:hover {
+  box-shadow: 10px 10px;
+}
+
+.feature_section {
+  margin-top: 5%;
+}
