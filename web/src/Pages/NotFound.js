@@ -11,6 +11,10 @@
 import React from 'react';
 
 
+//  COMPONENTS
+import Navbar from "../Components/Navbar";
+
+
 
 export default class NotFound extends React.Component {
     constructor() {
@@ -19,6 +23,7 @@ export default class NotFound extends React.Component {
     render() {
       return (
         <div className='background'>
+          <Navbar />
           <div className='mainSplash more_width'>
             <h1 className='header'>can't clean this... 404</h1>
           </div>
